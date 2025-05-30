@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Registrar Médico - DocLocator</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      background-color: #ffffff;
+      width: 80%;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    h1 {
+      text-align: center;
+      color: #0077cc;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input[type="text"], select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #0077cc;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    input[type="submit"]:hover {
+      background-color: #005fa3;
+    }
+    footer {
+      text-align: center;
+      background-color: #0077cc;
+      color: white;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Registro de Médico</h1>
+    <form action="guardar_medico.php" method="post">
+      <label for="nombre">Nombre Completo:</label>
+      <input type="text" name="nombre" id="nombre" size="40" />
+
+      <label for="especialidad">Especialidad:</label>
+      <select name="especialidad" id="especialidad">
+        <option value="medicinageneral">Medicina General</option>
+        <option value="pediatria">Pediatría</option>
+        <option value="ginecologia">Ginecología</option>
+        <option value="cardiologia">Cardiología</option>
+        <option value="dermatologia">Dermatología</option>
+        <option value="traumatologia">Traumatología</option>
+      </select>
+
+      <label for="municipio">Municipio donde atiende:</label>
+      <select name="municipio" id="municipio">
+        <option value="benitojuarez">Benito Juárez</option>
+        <option value="solidaridad">Solidaridad</option>
+        <option value="otónpblanco">Othón P. Blanco</option>
+        <option value="cozumel">Cozumel</option>
+        <option value="tulum">Tulum</option>
+        <option value="islahu">Isla Mujeres</option>
+      </select>
+
+      <label for="direccion">Dirección o Clínica:</label>
+      <input type="text" name="direccion" id="direccion" size="50" />
+
+      <label for="telefono">Teléfono de contacto:</label>
+      <input type="text" name="telefono" id="telefono" size="20" />
+
+      <input type="submit" value="Registrar Médico" />
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 DocLocator</p>
+  </footer>
+
+</body>
+</html>
+

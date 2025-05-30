@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Resultados de Búsqueda - DocLocator</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style type="text/css">
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f4f4f4;
+    }
+    .container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    h1 {
+      color: #0077cc;
+    }
+    .medico {
+      border-bottom: 1px solid #ccc;
+      padding: 10px 0;
+    }
+    .medico:last-child {
+      border-bottom: none;
+    }
+    .medico strong {
+      font-size: 18px;
+    }
+    .campo {
+      margin: 2px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Resultados de Búsqueda</h1>
+    <p><strong>Municipio:</strong> <span id="municipio"></span></p>
+    <p><strong>Especialidad:</strong> <span id="especialidad"></span></p>
+    <div id="resultados">
+      <!-- Aquí se mostrarán los resultados -->
+    </div>
+  </div>
+
+  <!-- JavaScript externo -->
+  <script type="text/javascript" src="buscar.js"></script>
+</body>
+</html>
