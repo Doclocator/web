@@ -1,7 +1,7 @@
 <?php
 // Configuración de conexión
-$host = "localhost";
-$usuario = "root"; // Cambiar si es necesario
+$host = "https://doclocator.github.io/web/";
+$usuario = "Doclocator"; // Cambiar si es necesario
 $contrasena = "123456789";  // Cambiar si es necesario
 $baseDeDatos = "doclocator";
 
