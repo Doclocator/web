@@ -2,7 +2,7 @@
 // Configuración de conexión
 $host = "https://doclocator.github.io/web/";
 $usuario = "Doclocator"; // Cambiar si es necesario
-$contrasena = "123456789";  // Cambiar si es necesario
+$contrasena = "";  // Cambiar si es necesario
 $baseDeDatos = "doclocator";
 
 // Crear conexión
