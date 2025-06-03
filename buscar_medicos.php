@@ -1,7 +1,7 @@
 <?php
 $host = "https://doclocator.github.io/web/";
 $user = "Doclocator";
-$password = "123456789";
+$password = "barrogon0127";
 $db = "doclocator";
 
 // Conexión a la base de datos
