@@ -1,6 +1,6 @@
 <?php
-$host = "localhost";
-$user = "root";
+$host = "https://doclocator.github.io/web/";
+$user = "Doclocator";
 $password = "123456789";
 $db = "doclocator";
 
